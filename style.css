@@ -1,0 +1,122 @@
+:root {
+    --navy-blue: #002147;
+    --light-gray: #D3D3D3;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #000;
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: var(--navy-blue);
+    min-height: 100vh;
+    padding: 20px;
+    color: rgb(255, 0, 106);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.days {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.day {
+    background: var(--light-gray);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #333;
+    font-size: 0.8em;
+}
+
+.add-task {
+    background: var(--light-gray);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.task {
+    background: var(--light-gray);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.streak-container {
+    background: var(--light-gray);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.streak-dots {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #666;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    background: var(--light-gray);
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.progress-chart {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-item {
+    background: var(--light-gray);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-button {
+    background: var(--light-gray);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
